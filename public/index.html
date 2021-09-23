@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kitchen DB</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Mongo Kitchen App</h1>
+    <h2>Status: <span id="status" class="primary">Creating</span></h2>
+    <h4>Create a new item by submitting its title and content below</h4>
+    <h4>Click on a item to edit its title or content</h4>
+    <div id="user-input">
+      <p>Title</p>
+      <input type="text" id="title" />
+      <br />
+      <p>Item</p>
+      <input type="number" id="item"></input>
+      <div id="buttons">
+        <div id="action-button">
+          <button id="make-new">Submit</button>
+        </div>
+        <!-- <button id="clear-all">Delete All Notes</button> -->
+      </div>
+      <h1>Ingredients</h1>
+    </div>
+
+    <div id="results"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
